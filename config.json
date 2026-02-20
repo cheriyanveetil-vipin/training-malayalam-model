@@ -1,0 +1,35 @@
+{
+  "model": "vits",
+  "run_name": "malayalam_vits",
+  "run_description": "VITS TTS for Malayalam",
+  "audio": {
+    "sample_rate": 22050,
+    "win_length": 1024,
+    "hop_length": 256,
+    "num_mels": 80,
+    "mel_fmin": 0,
+    "mel_fmax": null
+  },
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "num_loader_workers": 4,
+  "num_eval_loader_workers": 4,
+  "epochs": 1000,
+  "mixed_precision": true,
+  "run_eval": true,
+  "test_delay_epochs": -1,
+  "text_cleaner": "multilingual_cleaners",
+  "use_phonemes": false,
+  "compute_input_seq_cache": true,
+  "print_step": 25,
+  "output_path": "/workspace/output/",
+  "datasets": [
+    {
+      "formatter": "ljspeech",
+      "meta_file_train": "train.csv",
+      "meta_file_val": "val.csv",
+      "path": "/workspace/data/processed/",
+      "language": "ml"
+    }
+  ]
+}
