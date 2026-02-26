@@ -23,15 +23,6 @@
   "compute_input_seq_cache": true,
   "print_step": 25,
   "output_path": "/workspace/output/",
-  "characters": {
-    "pad": "<PAD>",
-    "eos": "<EOS>",
-    "bos": "<BOS>",
-    "blank": "<BLNK>",
-    "characters": " ,-.U_elnrtംഃഅആഇഈഉഊഋഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരറലളഴവശഷസഹാിീുൂൃെേൈൊോൌ്ൗ൱ൺൻർൽൾ‌‍",
-    "punctuations": "!,.?- ",
-    "phonemes": null
-  },
   "datasets": [
     {
       "formatter": "ljspeech",
@@ -40,16 +31,5 @@
       "path": "/workspace/data/processed/",
       "language": "ml"
     }
-  ],
-  "test_sentences": [
-    [
-      "അവൻ വീട്ടിൽ പോയി"
-    ],
-    [
-      "എനിക്ക് മലയാളം സംസാരിക്കാം"
-    ],
-    [
-      "ഇന്ന് നല്ല കാലാവസ്ഥയാണ്"
-    ]
   ]
 }
