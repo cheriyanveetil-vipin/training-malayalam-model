@@ -1,0 +1,7 @@
+output/ 
+*.pth 
+*.log 
+__pycache__/ 
+*.pyc 
+.env
+data/processed/wavs/
