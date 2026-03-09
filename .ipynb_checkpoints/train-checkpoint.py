@@ -27,7 +27,7 @@ characters_config = CharactersConfig(
     eos="<EOS>",
     bos="<BOS>",
     blank="<BLNK>",
-    characters="അആഇഈഉഊഋഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരറലളഴവശഷസഹാിീുൂൃെേൈൊോൌ്ൗംഃൺൻർൽൾ",
+    characters="അആഇഈഉഊഋഎഏഐഒഓഔകഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരറലളഴവശഷസഹാിീുൂൃെേൈൊോൌ്ൗംഃൺൻർൽൾ൱\u200c\u200d",
     punctuations="!,.?- ",
     is_unique=True,
 )
